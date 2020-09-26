@@ -4,7 +4,7 @@ function ageindays(){
     var d = new Date();
     var a = d.getFullYear();
     var agedays = (a - birthyaer)*365;
-    var h1= document.createElement('h1');
+    var h1= document.createElement('h6');
     var answer = document.createTextNode('I think your are '+ agedays +' days alive, and probably still alive to check this with me.');
     h1.setAttribute('id','results');
     h1.appendChild(answer);
