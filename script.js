@@ -1,7 +1,9 @@
 
 function ageindays(){
     var birthyaer = prompt('Which year you were born?');
-    var agedays = (2020 - birthyaer)*365;
+    var d = new Date();
+    var a = d.getFullYear();
+    var agedays = (a - birthyaer)*365;
     var h1= document.createElement('h1');
     var answer = document.createTextNode('I think your are '+ agedays +' days alive, and probably still alive to check this with me.');
     h1.setAttribute('id','results');
