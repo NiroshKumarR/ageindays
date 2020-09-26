@@ -1,0 +1,33 @@
+body{
+  background: burlywood;
+  background-attachment: fixed;
+  font-family: monospace;
+  border-radius: 81px 0px 81px 0px;
+  -moz-border-radius: 81px 0px 81px 0px;
+  -webkit-border-radius: 81px 0px 81px 0px;
+  border: 7px solid #000000;
+  margin: 30px;
+  -webkit-box-shadow: 18px 21px 26px 0px rgba(69,201,152,1);
+  -moz-box-shadow: 18px 21px 26px 0px rgba(69,201,152,1);
+  box-shadow: 18px 21px 26px 0px rgba(69,201,152,1);
+}
+
+.main{
+  text-align: center;
+  margin: 5px;
+  
+}
+
+.buttonss{
+  display: flex;
+  padding: 10px;
+  margin: 50px;
+  justify-content: space-evenly;
+  
+}
+
+.final{
+  text-align: center;
+  font-family: monospace;
+  font-weight: 20px;
+}
